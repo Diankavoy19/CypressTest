@@ -1,7 +1,8 @@
 {
   "name": "cypress",
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "cypress:run": "npx cypress run --browser chrome"
   },
   "devDependencies": {
     "cypress": "^10.4.0"
