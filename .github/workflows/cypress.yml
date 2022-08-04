@@ -13,7 +13,7 @@ jobs:
         node-version: '14.x'
     - name: Install dependencies
       run: npm ci
-    - run: apt-get install -y google-chrome-stable
+    - run: npm apt-get install -y google-chrome-stable
     - run: google-chrome --version
     - name: Run Cypress tests
       run: npx cypress run browser chrome
