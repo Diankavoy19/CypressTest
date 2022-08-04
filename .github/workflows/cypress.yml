@@ -17,8 +17,3 @@ jobs:
       run: npm i
     - name: Run Cypress tests
       run: cypress open
-      artifacts:
-        when: always
-        paths:
-        - cypress/screenshots/**/*.png
-        expire_in: 1 day
