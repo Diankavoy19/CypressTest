@@ -17,9 +17,3 @@ jobs:
       run: npm ci
     - name: Run Cypress tests
       run: npx cypress run --browser chrome
-      artifacts:
-    when: always
-    paths:
-      - cypress/videos/**/*.mp4
-      - cypress/screenshots/**/*.png
-    expire_in: 1 day
