@@ -13,8 +13,6 @@ jobs:
         node-version: '14.x'
     - name: Install dependencies
       run: npm ci
-    - run: npm apt-get install -y google-chrome-stable
-    - run: google-chrome --version
     - name: Run Cypress tests
-      run: npx cypress run browser chrome
+      run: npx cypress run
     - uses: actions/upload-artifact@v2
