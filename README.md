@@ -15,5 +15,6 @@ or
 ```console
 npx cypress run
 ```
-You must have these result:
+You must have these results:
 ![](https://diankavoy19.github.io/TestRail-Homework/picture/Sypress.png)
+![](https://diankavoy19.github.io/TestRail-Homework/picture/Cypress1.png)
