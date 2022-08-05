@@ -11,5 +11,9 @@ After that we can run all our tests.
 ```console
 npm run cypress:open 
 ```
+or 
+```console
+npx cypress run
+```
 You must have these result:
 ![](https://diankavoy19.github.io/TestRail-Homework/picture/Sypress.png)
