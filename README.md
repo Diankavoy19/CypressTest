@@ -12,4 +12,4 @@ After that we can run all our tests.
 npm run cypress:open 
 ```
 You must have these result:
-![](https://diankavoy19.github.io/TestRail-Homework/picture/Screenshot_4.png)
+![](https://diankavoy19.github.io/TestRail-Homework/picture/Sypress.png)
