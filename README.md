@@ -13,7 +13,11 @@ npm run cypress:open
 ```
 or 
 ```console
-npx cypress run
+npx cypress:run
+```
+or with config file for iphone-x
+```console
+npm run cypress:config
 ```
 You must have these results:
 ![](https://diankavoy19.github.io/TestRail-Homework/picture/Sypress.png)

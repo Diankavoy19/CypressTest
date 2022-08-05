@@ -2,7 +2,8 @@
   "name": "cypress",
   "scripts": {
     "cypress:open": "cypress open",
-    "cypress:run": "npx cypress run"
+    "cypress:run": "npx cypress run",
+    "cypress:config": "npx cypress run --config-file config/config.js"
   },
   "devDependencies": {
     "cypress": "^10.4.0"

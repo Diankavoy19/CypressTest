@@ -20,4 +20,4 @@ jobs:
             - run: npm i npm@latest
             - run: npm i
             - name: run test
-              run: npx cypress run
+              run: npx cypress run --config-file config/config.js"
